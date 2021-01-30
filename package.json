@@ -1,18 +1,21 @@
 {
-  "name": "serverless-ethers",
+  "name": "serverless",
   "version": "1.0.0",
   "description": "Smart contract automation service built with the Serverless framework.",
-  "author": "Yos Riady <yosriady@gmail.com>",
+  "author": "Uni <cryptounico@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "ethers": "^5.0.3"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
+    "serverless-dotenv-plugin": "^3.1.0",
     "serverless-offline": "^5.7.3",
     "serverless-offline-scheduler": "^0.3.8"
   },
   "bugs": {
-    "url": "https://github.com/yosriady/serverless-ethers/issues"
+    "url": "https://github.com/cryptounico/serverless/issues"
   },
-  "homepage": "https://github.com/yosriady/serverless-ethers"
+  "homepage": "https://github.com/cryptounico/serverless"
 }

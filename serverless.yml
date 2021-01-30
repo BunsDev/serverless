@@ -1,3 +1,5 @@
+org: unico
+app: demo
 service: serverless-ethers
 provider:
   name: aws
@@ -7,8 +9,8 @@ provider:
   environment:
     CHAIN_ID: 3 # 3 for Ropsten, 1 for Mainnet
     DEFAULT_GAS_PRICE: 60000000000
-    MNEMONIC: '...'
-    FROM_ADDRESS: '...'
+    MNEMONIC: process.env.MNEMONIC,
+    FROM_ADDRESS: process.env.FROM_ADDRESS,
     SLACK_HOOK_URL: 'https://hooks.slack.com/services/...'
 
 functions:
@@ -21,3 +23,9 @@ functions:
 plugins:
   - serverless-offline
   - serverless-offline-scheduler
+  - serverless-dotenv-plugin
+
+custom:
+  dotenv:
+    required:
+      file: true
