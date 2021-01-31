@@ -46,9 +46,9 @@ exports.handler = async function() {
   return true;
 }
 
-// function postToSlack(text) {
-//   const payload = JSON.stringify({ 
-//     text,
-//   });
-//   return axios.post(process.env.SLACK_HOOK_URL, payload)
-// }
+function postToSlack(text) {
+  const payload = JSON.stringify({ 
+    text,
+  });
+  return axios.post(process.env.SLACK_HOOK_URL, payload)
+}

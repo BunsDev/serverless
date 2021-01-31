@@ -58,12 +58,13 @@ Great for debugging and testing.
 ### Deploying to AWS
 
 ```bash
+npm i -D serverless-dotenv-plugin
 serverless deploy
 ```
 
 ## Thanks
 
-**serverless** 2020+, Uni. Released under the [MIT] License.<br>
+**serverless** 2021+, Uni. Released under the [MIT] License.<br>
 
 > GitHub [@CryptoUnico](https://github.com/CryptoUnico)
 

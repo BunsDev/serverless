@@ -10,6 +10,7 @@
     "ethers": "^5.0.5"
   },
   "devDependencies": {
+    "serverless-dotenv-plugin": "^3.1.0",
     "serverless-offline": "^5.7.3",
     "serverless-offline-scheduler": "^0.3.8"
   },
