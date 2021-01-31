@@ -1,4 +1,4 @@
-# serverless-ethers
+# serverless
 
 Learn more by reading the blog post: [Serverless Smart Contract Automation](https://soliditywiz.medium.com/smart-contract-automation-ca109805b23a).
 
@@ -17,7 +17,7 @@ Install the [Serverless Framework CLI](https://www.serverless.com/framework/docs
 
 ```bash
 git clone git@github.com:CryptoUnico/serverless.git
-cd serverless-ethers
+cd serverless
 nvm use
 npm install
 ```
@@ -27,7 +27,7 @@ npm install
 You can find and update the function's configuration in [`serverless.yml`](https://github.com/CryptoUnico/serverless/blob/master/serverless.yml):
 
 ```yml
-service: serverless-ethers
+service: serverless
 provider:
   name: aws
   runtime: nodejs12.x
