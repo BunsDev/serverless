@@ -5,12 +5,11 @@
   "author": "Uni <cryptounico@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
-    "ethers": "^5.0.3"
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.5"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0",
-    "serverless-dotenv-plugin": "^3.1.0",
     "serverless-offline": "^5.7.3",
     "serverless-offline-scheduler": "^0.3.8"
   },
