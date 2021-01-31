@@ -1,13 +1,13 @@
 org: unico
 app: demo
-service: serverless-ethers
+service: serverless
 provider:
   name: aws
   runtime: nodejs12.x
   region: ap-southeast-1
   timeout: 30
   environment:
-    CHAIN_ID: 3 # 3 for Ropsten, 1 for Mainnet
+    CHAIN_ID: 4 # 3 for Ropsten, 1 for Mainnet
     DEFAULT_GAS_PRICE: 60000000000
     MNEMONIC: process.env.MNEMONIC,
     FROM_ADDRESS: process.env.FROM_ADDRESS,
@@ -29,3 +29,6 @@ custom:
   dotenv:
     required:
       file: true
+
+
+

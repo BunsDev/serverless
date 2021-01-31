@@ -32,7 +32,7 @@ exports.handler = async function() {
     const RANDOM_INTEGER = Math.floor(Math.random() * 100); // returns a random integer from 0 to 99
     const tx = await contract.put(RANDOM_INTEGER, overrides)
 
-    const successMessage = `:white_check_mark: Transaction sent https://ropsten.etherscan.io/tx/${tx.hash}`;
+    const successMessage = `:white_check_mark: Transaction sent https://rinkeby.etherscan.io/tx/${tx.hash}`;
     console.log(successMessage)
     await postToSlack(successMessage);
   } catch (err) {
@@ -46,9 +46,9 @@ exports.handler = async function() {
   return true;
 }
 
-function postToSlack(text) {
-  const payload = JSON.stringify({ 
-    text,
-  });
-  return axios.post(process.env.SLACK_HOOK_URL, payload)
-}
+// function postToSlack(text) {
+//   const payload = JSON.stringify({ 
+//     text,
+//   });
+//   return axios.post(process.env.SLACK_HOOK_URL, payload)
+// }

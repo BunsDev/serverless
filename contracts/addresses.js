@@ -1,5 +1,5 @@
 const addresses = {
-  DummyStorage: "0xfb01bf6abde080a278a7bbc62f3ba568380eafed",
+  DummyStorage: "0xBB8dB3AcF576213Ad200c8342bF4419ac6B0f56c",
 };
 
 module.exports = addresses;

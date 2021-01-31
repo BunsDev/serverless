@@ -1,6 +1,6 @@
 # serverless-ethers
 
-Learn more by reading the blog post: [Serverless Smart Contract Automation](https://yos.io/2020/07/04/serverless-smart-contract-automation/).
+Learn more by reading the blog post: [Serverless Smart Contract Automation](https://soliditywiz.medium.com/smart-contract-automation-ca109805b23a).
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Install the [Serverless Framework CLI](https://www.serverless.com/framework/docs
 ## Getting Started
 
 ```bash
-git clone git@github.com:yosriady/serverless-ethers.git
+git clone git@github.com:CryptoUnico/serverless.git
 cd serverless-ethers
 nvm use
 npm install
@@ -24,7 +24,7 @@ npm install
 
 ### Set your environment variables
 
-You can find and update the function's configuration in [`serverless.yml`](https://github.com/yosriady/serverless-ethers/blob/master/serverless.yml):
+You can find and update the function's configuration in [`serverless.yml`](https://github.com/CryptoUnico/serverless/blob/master/serverless.yml):
 
 ```yml
 service: serverless-ethers
@@ -63,11 +63,9 @@ serverless deploy
 
 ## Thanks
 
-**serverless-ethers** 2020+, Yos Riady. Released under the [MIT] License.<br>
-Authored and maintained by Yos Riady with help from contributors ([list][contributors]).
+**serverless** 2020+, Uni. Released under the [MIT] License.<br>
 
-> [yos.io](http://yos.io) &nbsp;&middot;&nbsp;
-> GitHub [@yosriady](https://github.com/yosriady)
+> GitHub [@CryptoUnico](https://github.com/CryptoUnico)
 
 [MIT]: http://mit-license.org/
-[contributors]: http://github.com/yosriady/serverless-ethers/contributors
+[contributors]: http://github.com/CryptoUnico/serverless/contributors
