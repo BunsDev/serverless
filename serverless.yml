@@ -17,7 +17,7 @@ functions:
   exec:
     handler: functions/exec.handler    
     events:
-      - schedule: rate(2 hours)
+      - schedule: rate(24 hours)
       # - schedule: cron(0 12 * * ? *) # 12PM UTC
 
 plugins:
